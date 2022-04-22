@@ -295,9 +295,7 @@ int main()
 
 ## Zadania do samodzielnego wykonania:
 
-1. Wykonaj następujące kroki:
-   1. zadeklaruj i zainicjalizuj tablice o rozmiarze 10 elementów oraz wskaźnik na tą tablicę
-
+*WKRÓTCE*
 
 ***
 [Poprzednia część](https://github.com/CyberMALab/Wlasne-funkcje.git) | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część](https://github.com/CyberMALab/Comming-Soon.git)
