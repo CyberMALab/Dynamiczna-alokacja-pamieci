@@ -174,6 +174,8 @@ Problematycznym może wydawać się zaimplementowanie tablic wielowymiarowych, b
 
 *Schemat (14.0) tablica wielowymiarowa stworzona dynamicznie.*
 
+![image](https://user-images.githubusercontent.com/71324202/164782319-116a283f-4632-4a5c-b1f4-f1f8b564c33d.png)
+
 
 *Przykład (14.3) dynamiczna implementacja tablicy wielowymiarowej*
 
@@ -230,16 +232,19 @@ int main()
 
 Na podstawie przykładu 14.3 zagłębię się teraz we wskażniki oraz ich dereferecję występującą w powyższym kodzie. Do tego zadania skorzystamy z schematu analogicznego do schematu 14.0:
 
-
+![image](https://user-images.githubusercontent.com/71324202/164782530-c3c52adb-62cb-4cf6-b0e0-616a842efb7e.png)
 
 Teraz odpowiadamy sobie na pytanie, gdzie zaniesie nas odwołanie się do wartości `Array2Dim`.
 
+![image](https://user-images.githubusercontent.com/71324202/164782415-5e691d1e-5a5f-47a3-a175-fbbc2b3f7816.png)
 
 Jeżeli użyję zapisu `Array2Dim[3]` lub `*(Array2Dim+3)`  to korzystając z własności dereferrencji odwołam się do 4 elementu tablicy wskaźników.
 
-
+![image](https://user-images.githubusercontent.com/71324202/164782461-8fe0104c-8087-44c5-b3b9-7f7f6d72fa38.png)
 
 I teraz czas na kolejną dereferencję przy użyciu drugiego nawiasu kwadratowego `Array2Dim[3][2]` lub `*(*(Array2Dim+3)+2)`
+
+![image](https://user-images.githubusercontent.com/71324202/164782487-e399bfb8-f9e0-46db-8218-3a15cfc2fd3a.png)
 
 ## Funkcja realloc()
 
