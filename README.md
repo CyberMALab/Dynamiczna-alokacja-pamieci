@@ -236,15 +236,15 @@ Na podstawie przykładu 14.3 zagłębię się teraz we wskażniki oraz ich deref
 
 Teraz odpowiadamy sobie na pytanie, gdzie zaniesie nas odwołanie się do wartości `Array2Dim`.
 
-![image](https://user-images.githubusercontent.com/71324202/164782415-5e691d1e-5a5f-47a3-a175-fbbc2b3f7816.png)
+![image](https://user-images.githubusercontent.com/71324202/164782938-d7d62796-3876-462b-8f48-71a6704da086.png)
 
 Jeżeli użyję zapisu `Array2Dim[3]` lub `*(Array2Dim+3)`  to korzystając z własności dereferrencji odwołam się do 4 elementu tablicy wskaźników.
 
-![image](https://user-images.githubusercontent.com/71324202/164782461-8fe0104c-8087-44c5-b3b9-7f7f6d72fa38.png)
+![image](https://user-images.githubusercontent.com/71324202/164782983-5ccda12c-d27e-406b-9cc1-332ee0573eb6.png)
 
 I teraz czas na kolejną dereferencję przy użyciu drugiego nawiasu kwadratowego `Array2Dim[3][2]` lub `*(*(Array2Dim+3)+2)`
 
-![image](https://user-images.githubusercontent.com/71324202/164782487-e399bfb8-f9e0-46db-8218-3a15cfc2fd3a.png)
+![image](https://user-images.githubusercontent.com/71324202/164783009-314d2d6f-4735-4d4d-93e6-93174d578f07.png)
 
 ## Funkcja realloc()
 
