@@ -303,6 +303,6 @@ int main()
 *WKRÓTCE*
 
 ***
-[Poprzednia część](https://github.com/CyberMALab/Wlasne-funkcje.git) | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część](https://github.com/CyberMALab/Comming-Soon.git)
+[Poprzednia część](https://github.com/CyberMALab/Wlasne-funkcje.git) | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część](https://github.com/CyberMALab/Obsluga-plikow-i-strumieni-wejscia-i-wyjscia.git)
 ***
 &copy; Cyberspace Modelling and Analysis Laboratory
